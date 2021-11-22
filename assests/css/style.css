@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Oswald:wght@200&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+body {
+    font-family: Oswald, sans-serif ;
+    font-weight: 200;
+    color: rgb(76, 70, 70);
+}
+
+/* heading style */
+
+h1, h2 {
+    font-family: Bebas Neue, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: rgb(33, 78, 13);
+}
+#heading {
+    float: left;
+    font-size: 300%;
+}
+
+/* menu styling */
+
+#menu {
+    letter-spacing: 2px;
+    text-decoration: none;
+    font-size: 120%;
+}
+#menu li {
+    float: right;
+    list-style-type: none;
+    margin-right: 20px;
+    letter-spacing: 2px;
+}
+#menu a {
+    text-decoration: none;
+    color: inherit;
+}
+#menu, #heading {
+    line-height: 100px;
+}
+#menu a:hover {
+    border-bottom: 1px solid rgb(76, 70, 70);
+    font-size: larger;
+    font-weight: bold;
+}
+.active {
+    background-color: lightgray;
+}

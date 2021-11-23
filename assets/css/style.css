@@ -51,3 +51,11 @@ h1, h2 {
 .active {
     background-color: lightgray;
 }
+
+/*hero image*/
+#hero-image {
+    height: 500px;
+    overflow: hidden;
+    width: 100%;
+    background-image: url(../images/hero-image.jpeg);
+}

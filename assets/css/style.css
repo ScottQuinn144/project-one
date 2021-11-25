@@ -55,11 +55,26 @@ h1, h2 {
 
 /*hero image*/
 #hero-image {
-    overflow: hidden;
     height: 400px;
     width: 100%;
     background: url("../images/hero-3.jpg") no-repeat center bottom;
+    overflow: hidden;
     background-color: rgb(33, 78, 13);
-    
-    
+}
+#hero-animation{
+    height: 400px;
+    width: 100%;
+    overflow: hidden;
+    animation-name: hero-zoom;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes hero-zoom {
+    from{ 
+        transform: scale(1);
+    }
+    to{
+        transform: scale(1.05);
+    }
 }

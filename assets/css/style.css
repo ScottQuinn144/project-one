@@ -122,9 +122,6 @@ p {
     text-transform: uppercase;
 }
 /* footer */
-footer {
-   
-}
 .footer-list {
     color:rgb(33, 78, 13);
     text-align: center;
@@ -139,5 +136,4 @@ footer {
     font-size: 200%;
     position: relative;
     margin-top: 1%;
-    
 }

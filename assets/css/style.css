@@ -9,7 +9,7 @@ body {
     font-weight: 600;
     color: rgb(76, 70, 70);
     letter-spacing: 1px;
-}
+    max-width: 100%;
 }
 
 /* heading style */
@@ -19,14 +19,14 @@ h1 {
     text-transform: uppercase;
     letter-spacing: 3px;
     color: rgb(33, 78, 13);
-    padding-top: 10%;
 }
 #heading {
     float: left;
     font-size: 300%;
-    padding-left: 20px;
+    padding-bottom: 50px;
     color: rgb(33, 78, 13);
     font-family: Bebas Neue, sans-serif;
+ 
 }
 
 /* menu styling */
@@ -60,7 +60,7 @@ h1 {
 
 /*hero image*/
 #hero-image {
-    height: 400px;
+    height: 100%;
     width: 100%;
     background: url("../images/hero-3.jpg") no-repeat center bottom;
     overflow: hidden;
@@ -77,10 +77,11 @@ h1 {
 
 @keyframes hero-zoom {
     from{ 
-        transform: scale(1);
+        transform: scale(0.9);
     }
     to{
-        transform: scale(1.05);
+        transform: scale(1
+        );
     }
 }
 h2 {

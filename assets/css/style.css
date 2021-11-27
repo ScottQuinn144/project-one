@@ -129,11 +129,45 @@ p {
 .footer-list li {
     display: inline;
     padding: 1%;
-    padding-inline: 5%;
+    padding-inline: 10%;
 }
 .footer-list i {
     color: rgb(33, 78, 13);
     font-size: 200%;
     position: relative;
     margin-top: 1%;
+}
+/* harley's biography section */
+#harley-title {
+    background-color:rgb(33, 78, 13);
+    color: lightgray;
+    margin: 0 auto;   
+}
+#one {
+    height: 350px;
+}
+#two {
+    padding-top: 30px;
+    width: 30%;
+    float: left;
+    background-color: rgb(33, 78, 13);
+}
+img {
+    max-width: 90%;
+    max-height: 200px;
+    overflow: hidden;
+    padding-left: 100px;
+    padding-bottom: 30px;
+}
+#three {
+    padding-top: 30px;
+    width: 70%;
+    float: right;
+    background-color: rgb(33, 78, 13);
+    color: lightgray;
+    padding-bottom: 91px;
+    text-align: left;
+}
+#three #two {
+    line-height: 100px;
 }

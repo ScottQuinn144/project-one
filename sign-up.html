@@ -9,6 +9,7 @@
     <meta name="keywords" content="cricket, club, Harley">
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
+
 <body>
     <header>
         <a href="index.html">
@@ -23,11 +24,60 @@
                     <a href="gallery.html">Gallery</a>
                 </li>
                 <li>
-                    <a href="index.html" >Home</a>
-                </li>
-                
+                    <a href="index.html">Home</a>
+                </li> 
             </ul>
-        </nav>
+        </nav> 
     </header>
+    <section class="sign-up-class">
+        <div id="sign-up-background">
+            <img class="sign-up-img" src="assets/images/sign-up.png" alt="My Cricket Logo">
+            <form method="get" action="welcome.html">
+                <fieldset>
+                    <legend>Personal Details:</legend>
+                <label for="name">Name:</label>
+                <input type="textbox" name="name" placeholder="Add Full Name Here">
+                <br>
+                <label for="email">Email Address:</label>
+                <input type="email" name="Email" placeholder="Add Email Here">
+                </fieldset>
+                <br>
+                <fieldset>
+                    <legend>Select Age Group:</legend>
+                <label for="Juniors (Under 16)">Juniors (Under 16)</label>
+                <input id="Juniors" name="ages" type="radio" value="Under 16" checked>
+                <br>
+                <label for="16-18">16-18yrs</label>
+                <input id="16-18" name="ages" type="radio" value="16-18yrs">
+                <br>
+                <label for="Reserves">Reserves</label>
+                <input id="Reserves" name="ages" type="radio" value="Reserves">
+                <br>
+                <label for="Seniors">Seniors</label>
+                <input name="ages" type="radio" id="Seniors" value="Seniors">
+                </fieldset>
+                <button type="submit"><strong>Join Us!</strong></button>
+                <button type="reset"><strong>Reset</strong></button>
+            </form>
+        </div>
+    </section>
+        <section>
+            <footer>
+                <ul class="footer-list">
+                    <li>
+                        <a href="https://www.facebook.com/bowlingpies/?ref=pages_you_manage" target="_blank" rel="noopener" 
+                        aria-label="A link to Harley's facebook page (Opens in a new browser"><i class="fab fa-facebook-square"></i></a>
+                    </li>
+                    <li>
+                        <a href="https://www.instagram.com/harleyscricketclub144/" target="_blank" rel="noopener" 
+                        aria-label="A link to Harley's instagram page (Opens in a new browser"><i class="fab fa-instagram-square"></i></a>
+                    </li>
+                </ul>
+            </footer>
+        </section>
+
+    <script src="https://kit.fontawesome.com/3904e20fc2.js" crossorigin="anonymous"></script>
+    
 </body>
+
 </html>

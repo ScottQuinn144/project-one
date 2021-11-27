@@ -184,3 +184,42 @@ img {
 #photos > img {
     width: auto;
 }
+/* sign up page */
+#sign-up-background {
+    height: 100%;
+    width: 100%;
+    background-color: rgb(33, 78, 13);
+    overflow: hidden;
+}
+.sign-up-img {
+    margin-top: 20px;
+}
+div {
+    display: inline-block;
+}
+div > form {
+    float: right;
+    text-align: center;
+    color: lightgray;
+    letter-spacing: 2px;
+    margin-right: 33%;
+    margin-top: 30px;
+}
+button {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-inline: 10px;
+}
+#welcome {
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    background-color: rgb(33, 78, 13);
+}
+a > img {
+    margin-top: 30px;
+    margin-left: 35%;
+}
+div > h2{
+    color: lightgray;
+}

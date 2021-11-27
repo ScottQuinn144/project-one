@@ -171,3 +171,16 @@ img {
 #three #two {
     line-height: 100px;
 }
+
+/* gallery page */
+#photos {
+    clear: both;
+    column-count: 3;
+    background-color: rgb(33, 78, 13);
+    padding-top: 5%;
+    padding-bottom: 5%;
+    text-align: center;
+}
+#photos > img {
+    width: auto;
+}

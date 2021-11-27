@@ -13,7 +13,6 @@ body {
 }
 
 /* heading style */
-
 h1 {
     font-family: Bebas Neue, sans-serif;
     text-transform: uppercase;
@@ -26,11 +25,10 @@ h1 {
     padding-bottom: 50px;
     color: rgb(33, 78, 13);
     font-family: Bebas Neue, sans-serif;
- 
+    height: 50px;
 }
 
 /* menu styling */
-
 #menu {
     letter-spacing: 2px;
     text-decoration: none;
@@ -67,7 +65,7 @@ h1 {
     background-color: rgb(33, 78, 13);
 }
 #hero-animation{
-    height: 400px;
+    height: 350px;
     width: 100%;
     overflow: hidden;
     animation-name: hero-zoom;
@@ -80,17 +78,19 @@ h1 {
         transform: scale(0.9);
     }
     to{
-        transform: scale(1
-        );
+        transform: scale(1);
     }
 }
+/* the written area */
 h2 {
     padding: 10px;
     margin: 10px;
     text-align: center;
     color: rgb(33, 78, 13);
     font-family: Bebas Neue, sans-serif;
-    
+}
+h2 i {
+    padding-left: 2px;
 }
 p {
     text-align: center;
@@ -100,6 +100,8 @@ p {
 }
 .background {
     background-color: lightgrey;
+    position: relative;
+    margin-top: -1%;
 }
 
 /* table */
@@ -111,8 +113,30 @@ p {
     margin-right: auto;
 }
 
-#table-heading {
-    text-decoration: rgb(33, 78, 13);
+.table-heading {
     text-decoration: 3px underline solid;
     padding: 1px;
+    font-weight: 900;
+    font-size: 110%;
+    text-transform: uppercase;
+}
+/* footer */
+footer {
+   
+}
+.footer-list {
+    color:rgb(33, 78, 13);
+    text-align: center;
+}
+.footer-list li {
+    display: inline;
+    padding: 1%;
+    padding-inline: 5%;
+}
+.footer-list i {
+    color: rgb(33, 78, 13);
+    font-size: 200%;
+    position: relative;
+    margin-top: 1%;
+    
 }

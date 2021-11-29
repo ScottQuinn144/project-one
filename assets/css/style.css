@@ -146,22 +146,9 @@ p {
 #one {
     height: 350px;
 }
-#two {
-    padding-top: 30px;
-    width: 30%;
-    float: left;
-    background-color: rgb(33, 78, 13);
-}
-img {
-    max-width: 90%;
-    max-height: 200px;
-    overflow: hidden;
-    padding-left: 100px;
-    padding-bottom: 30px;
-}
 #three {
     padding-top: 30px;
-    width: 70%;
+    width: 100%;
     float: right;
     background-color: rgb(33, 78, 13);
     color: lightgray;
@@ -223,3 +210,91 @@ a > img {
 div > h2{
     color: lightgray;
 }
+
+/* media queries */
+
+@media screen and (max-width: 1030px) { 
+    #heading {
+        font-family: Bebas Neue, sans-serif;
+        text-transform: uppercase;
+        letter-spacing: 3px;
+        color: rgb(33, 78, 13);
+        font-size: 28px;
+    } 
+    #table {
+        width: 70%;
+    }
+}
+
+@media screen and (max-width: 740px) {
+    #menu {
+        letter-spacing: 2px;
+        text-decoration: none;
+        font-size: 120%;
+        float: left;
+        padding-top: 0%;
+        
+    }
+    #menu li {
+        list-style-type: none;
+        margin-right: 20px;
+        letter-spacing: 2px;
+    }
+    #menu a {
+        text-decoration: none;
+        color: inherit;
+    }
+    #menu a:hover {
+        border-bottom: 1px solid rgb(76, 70, 70);
+        font-size: larger;
+        font-weight: bold;
+    }
+    .active {
+        background-color: lightgray;
+    }
+    #table {
+        font-size: smaller;
+    }
+}
+@media  screen and (max-width: 520px) {
+    #menu {
+        letter-spacing: 2px;
+        text-decoration: none;
+        font-size: 120%;
+        float: left;
+        padding-top: 0%;
+        
+    }
+    #menu li {
+        list-style-type: none;
+        margin-right: 20px;
+        letter-spacing: 2px;
+    }
+    #menu a {
+        text-decoration: none;
+        color: inherit;
+    }
+    #menu a:hover {
+        border-bottom: 1px solid rgb(76, 70, 70);
+        font-size: larger;
+        font-weight: bold;
+    }
+    .active {
+        background-color: lightgray;
+    }
+    #heading {
+        font-family: Bebas Neue, sans-serif;
+        text-transform: uppercase;
+        letter-spacing: 3px;
+        color: rgb(33, 78, 13);
+        font-size: 18px;
+    } 
+    #table {
+        width: 100%;
+        font-size: xx-small;
+    }
+    p{
+        font-size: small;
+    }
+}
+    

@@ -6,17 +6,21 @@ This page is designed for new recruits who wish to join Harley's team. It has tr
 
 HTML and CSS testing was done through `W3C` validator:
 
-[Home Page](index.html) had 2 issues with not having headings in a section tag.
+- [Home Page](index.html) had 2 issues with not having headings in a section tag.
 
-[Gallery Page](gallery.html) had 2 issues with not having headings in a section tag.
+- [Gallery Page](gallery.html) had 2 issues with not having headings in a section tag.
 
-[CSS stylesheet](style.css) has no issues 
+- [CSS stylesheet](style.css) has no issues 
 
 Both issues have been delibarated on and the page does not require headings at these points
 
 ## **Lighthouse Score**
 
 ![Accessibility Score Small](assets/images/partial-screen-lighthouse.png)
+
+## **Responsive Design**
+
+![Responsive Design Appearance](assets/images/responsive.png)
 
 ## **Features**
 
@@ -34,3 +38,22 @@ Both issues have been delibarated on and the page does not require headings at t
 - I fixed many bugs in the page as I was working on them, these have been mentioned within each `git commit` I have done.
 - I removed extra closing tags and fixed bugs that `W3C` showed me too.
 - There are no bugs left unattended in the site
+
+## **Deployment**
+- I deployed my site on GitHub pages. I followed instructions from [Code Institue](https://codeinstitute.net/se/5-day-coding-challenge/?utm_term=code%20institute&utm_campaign=CI+-+SWE+-+Search+-+Brand&utm_source=adwords&utm_medium=ppc&hsa_acc=8983321581&hsa_cam=14660337051&hsa_grp=134087657984&hsa_ad=546251838233&hsa_src=g&hsa_tgt=kwd-319867646331&hsa_kw=code%20institute&hsa_mt=e&hsa_net=adwords&hsa_ver=3&gclid=Cj0KCQiA15yNBhDTARIsAGnwe0UQv6qv0SwHT3sAGJ6uF8SdJR6nThPCUkVs_yMLPFdVaHSEq1RtzB8aAtAuEALw_wcB) and deployed my site.
+- My deployed site url is [https://scottquinn144.github.io/project-one/index.html](https://scottquinn144.github.io/project-one/index.html)
+
+## **Credits**
+
+### Content
+- Harley Smith for providing me with his biography information
+
+## Media
+- All images were taken from [Google](https://www.google.com/)
+
+## **Disclaimer**
+
+This site was built for educational purposes only, all rights to images remain with the copyright owners. `Harley's Team` is a fictional team based on the developers personal friend. Harley gave permission to use his name and biography for this site. Any real team with the same name or likeness holds copyrights to the name and likeness. 
+
+Developer: Scott Quinn
+

@@ -45,10 +45,10 @@ Both issues have been delibarated on and the page does not require headings at t
 
 ## **Credits**
 
-## Content
+### Content
 - Harley Smith for providing me with his biography information
 
-## Media
+### Media
 - All images were taken from [Google](https://www.google.com/)
 
 ## **Disclaimer**

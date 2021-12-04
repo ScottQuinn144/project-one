@@ -313,7 +313,7 @@ div > h2{
         text-decoration: none;
         font-size: 80%;
         float: left;
-        padding-top: 0%;
+        
         
     }
     #menu li {
@@ -336,9 +336,10 @@ div > h2{
     #heading {
         font-family: Bebas Neue, sans-serif;
         text-transform: uppercase;
-        letter-spacing: 3px;
+        letter-spacing: 2px;
         color: rgb(33, 78, 13);
-        font-size: 10px;
+        font-size: 15px;
+        padding-bottom: 0%;
     } 
     #table {
         width: 100%;

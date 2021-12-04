@@ -16,11 +16,11 @@ Both issues have been delibarated on and the page does not require headings at t
 
 ## **Lighthouse Score**
 
-![Accessibility Score Small](assets/images/partial-screen-lighthouse.png)
+![Accessibility Score Small](assets/images/lighthouse-new.png)
 
 ## **Responsive Design**
 
-![Responsive Design Appearance](assets/images/responsive.png)
+![Responsive Design Appearance](assets/images/responsive-new.png)
 
 ## **Features**
 
